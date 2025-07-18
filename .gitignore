@@ -1,0 +1,54 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude terraform plan output
+*.tfplan
+
+# Ignore terraform configuration directory
+.terraform/
+
+# Terraform variable override files (local-only, sensitive)
+*.tfvars
+*.tfvars.json
+
+# Local execution metadata
+.terraform.lock.hcl
+
+# Sensitive or user-specific shell scripts or files
+*.sh
+*.bak
+*.log
+*.backup
+
+# Editor and OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swn
+.idea/
+.vscode/
+*.code-workspace
+
+# Windows-specific
+ehthumbs.db
+Desktop.ini
+
+# Python virtualenv (if any)
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Ignore test coverage files or build output
+coverage/
+dist/
+build/
+
+# Ignore AWS credentials files (if present)
+.aws/
+
